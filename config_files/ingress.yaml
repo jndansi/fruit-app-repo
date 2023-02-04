@@ -14,7 +14,7 @@ spec:
   - host: "34.170.177.30.nip.io"
     http:
       paths:
-      - path: /home
+      - path: /
         pathType: Prefix
         backend:
           service:
