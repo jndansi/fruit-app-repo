@@ -30,7 +30,7 @@ spec:
         imagePullPolicy: IfNotPresent
         resources:
           requests:
-             cpu: 100m
+             cpu: 50m
         ports:
         - containerPort:  80
           name:  fruit-deploy-1
